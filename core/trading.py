@@ -4,18 +4,6 @@
 from core import reqparse as rp
 from core import report as Report
 
-'''
-Trading.createOrder(type='bid', market='BTCNOK', price='0.0123', amount='1')
-
-Trading.cancelOrder()
-Trading.cancelOrder(market='BTCNOK')
-
-Trading.orderList()
-Trading.orderList(market='BTCNOK')
-
-https://developers.miraiex.com/#/private/v2/orders
-'''
-
 class Trading:
     def __init__(self):
         self.report = Report.Report()

@@ -1,26 +1,8 @@
 #!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
+
 from core import reqparse as rp
 from core import report as Report
-
-'''
-Account.addresses()
-
-Account.history(data='deposit')
-
-Account.history(data='orders')
-Account.history(data='orders', market='BTCNOK')
-
-Account.history(data='trades')
-Account.history(data='trades', year='2020')
-Account.history(data='trades', year='2020', month='02')
-
-Account.history(data='transactions', year='2020')
-Account.history(data='transactions', year='2020', month='02')
-
-https://developers.miraiex.com/#/private/v2/account
-https://developers.miraiex.com/#/private/v2/history/README
-'''
 
 class Account():
     def __init__(self):
